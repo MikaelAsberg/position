@@ -1,0 +1,761 @@
+    body {
+        width: 1400px;
+        height: 4000px;
+    }
+    
+    .navigation {
+        position: relative;
+        width: 1400px;
+        height: 78px;
+    }
+    
+    ol>li {
+        list-style-type: none;
+        position: absolute;
+    }
+    
+    .nav-logo {
+        width: 30px;
+        height: 30px;
+        transform: translate(144px, 22px);
+    }
+    
+    .nav-productly {
+        width: 143px;
+        height: 29px;
+        transform: translate(186px, 25px);
+        color: #173A56;
+        Stroke: Linear-gradient(#FFFFFF 0% rgba(255, 255, 255, 0) 100%);
+        text-align: center 1px;
+    }
+    
+    .nav-lists {
+        width: 350px;
+        height: 28px;
+        padding-left: 0px;
+        position: absolute;
+        transform: translate(650px, 24px);
+        font-family: 'Poppins' sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 28px 133%;
+        color: #2F281E;
+        text-align: left top;
+    }
+    
+    .nav-customers {
+        margin-left: 80px;
+    }
+    
+    .nav-pricing {
+        margin-left: 180px;
+    }
+    
+    .nav-resources {
+        margin-left: 250px;
+    }
+    
+    .nav-sign-in-btn {
+        width: 102px;
+        height: 46px;
+        position: absolute;
+        transform: translate(1029px, 15px);
+        background-color: (0, 0, 0, 0.25);
+        font-family: 'Poppins' sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 4px;
+        border: none;
+    }
+    
+    .nav-sign-up-btn {
+        width: 110px;
+        height: 46px;
+        position: absolute;
+        transform: translate(1145px, 15px);
+        background-color: #FF9900;
+        font-family: 'Poppins' sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        border: none;
+    }
+    
+    .header {
+        width: 1126px;
+        height: 496px;
+        position: absolute;
+        left: 145px;
+        top: 128px;
+        display: flex;
+    }
+    
+    .header-content {
+        width: 518px;
+        height: 331px;
+        position: relative;
+        left: 0px;
+        top: 83px;
+    }
+    
+    .header-heading {
+        font-family: 'Poppins' sans-serif;
+        font-weight: bold;
+        font-size: 44px;
+        color: #2F281E;
+        line-height: 54px 82%;
+        text-Align: Left;
+        Vertical-align: Top;
+        margin-top: 0px;
+    }
+    
+    .header-paragraph {
+        font-family: 'Poppins' sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        color: #544837;
+        line-height: 28px 104%;
+        text-Align: Left;
+        Vertical-align: Top;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+    
+    .heading-btn {
+        width: 366px;
+        height: 53px;
+        position: absolute;
+        left: 145px;
+        top: 489px;
+    }
+    
+    .btn-get-started {
+        width: 175px;
+        height: 53px;
+        background-color: #FF9900;
+        color: #FFFFFF;
+        font-family: 'Poppins' sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        position: relative;
+        left: 0px;
+        top: 45px;
+    }
+    
+    .triangle {
+        /* I did'nt get the triangle right. It's missing a piece in the edge */
+        width: 20px;
+        height: 17px;
+        border-top: 10px solid transparent;
+        border-left: 17px solid #FF9900;
+        border-bottom: 10px solid transparent;
+        position: relative;
+        left: 205px;
+        top: 0px;
+    }
+    
+    .btn-watch-the-video {
+        width: 135px;
+        height: 24px;
+        color: #FF9900;
+        background-color: #FFFFFF;
+        border: none;
+        font-family: 'Poppins' sans-serif;
+        font-style: 600 italic;
+        font-size: 16px;
+        line-height: 24px 100%;
+        text-align: left;
+        vertical-align: top;
+        position: relative;
+        left: 240px;
+        top: -30px;
+    }
+    
+    .header-images {
+        width: 605px;
+        height: 496px;
+        flex: end;
+    }
+    
+    .main__feature {
+        width: 1126px;
+        height: 543px;
+        position: absolute;
+        left: 145px;
+        top: 734px;
+    }
+    
+    .feature__heading {
+        width: 539px;
+        height: 108px;
+        font-family: 'Poppins' sans-serif;
+        font-style: bold;
+        font-size: 36px;
+        line-height: 54px 100%;
+        text-align: center;
+        vertical-align: top;
+        color: #2F281E;
+        position: absolute;
+        left: 294px;
+        top: 0px;
+        margin-top: 0px;
+    }
+    
+    .feature__card {
+        width: 1095px;
+        height: 204px;
+        position: absolute;
+        left: 0px;
+        top: 162px;
+    }
+    
+    .feature-card__one {
+        width: 240px;
+        height: 204px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    
+    .feature-card__one-img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .feature-card__one-heading {
+        width: 192px;
+        height: 33px;
+        position: relative;
+        left: 0px;
+        top: 50px;
+        font-family: 'Poppins' sans-serif;
+        font-style: 600;
+        font-size: 22px;
+        line-height: 33px 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #2F281E;
+    }
+    
+    .feature-card__one-content {
+        width: 240px;
+        height: 78px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        font-family: 'Poppins' sans-serif;
+        Font-style: Medium;
+        Font-size: 16px;
+        Line-height: 26px 88%;
+        color: #544837;
+    }
+    
+    .feature-card__two {
+        width: 240px;
+        height: 178px;
+        position: absolute;
+        right: 284px;
+        top: 0px;
+    }
+    
+    .feature-card__two-img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .feature-card__two-heading {
+        width: 181px;
+        height: 33px;
+        position: relative;
+        left: 0px;
+        top: 50px;
+        font-family: 'Poppins' sans-serif;
+        font-style: 600;
+        font-size: 22px;
+        line-height: 33px 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #2F281E;
+    }
+    
+    .feature-card__two-content {
+        width: 240px;
+        height: 78px;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        font-family: 'Poppins' sans-serif;
+        Font-style: Medium;
+        Font-size: 16px;
+        Line-height: 26px 88%;
+        color: #544837;
+    }
+    
+    .feature-card__three {
+        width: 240px;
+        height: 178px;
+        position: absolute;
+        left: 286px;
+        top: 0px;
+    }
+    
+    .feature-card__three-img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .feature-card__three-heading {
+        width: 170px;
+        height: 33px;
+        position: relative;
+        left: 0px;
+        top: 50px;
+        font-family: 'Poppins' sans-serif;
+        font-style: 600;
+        font-size: 22px;
+        line-height: 33px 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #2F281E;
+    }
+    
+    .feature-card__three-content {
+        width: 240px;
+        height: 52px;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        font-family: 'Poppins' sans-serif;
+        Font-style: Medium;
+        Font-size: 16px;
+        Line-height: 26px 88%;
+        color: #544837;
+    }
+    
+    .feature-card__four {
+        width: 240px;
+        height: 178px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .feature-card__four-img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .feature-card__four-heading {
+        width: 170px;
+        height: 33px;
+        position: relative;
+        left: 0px;
+        top: 50px;
+        font-family: 'Poppins' sans-serif;
+        font-style: 600;
+        font-size: 22px;
+        line-height: 33px 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #2F281E;
+    }
+    
+    .feature-card__four-content {
+        width: 240px;
+        height: 52px;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        font-family: 'Poppins' sans-serif;
+        Font-style: Medium;
+        Font-size: 16px;
+        Line-height: 26px 88%;
+        color: #544837;
+    }
+    
+    .feature__btn {
+        width: 175px;
+        height: 53px;
+        background-color: #FF9900;
+        color: #FFFFFF;
+        position: absolute;
+        left: 485px;
+        bottom: 90px;
+        border: none;
+        border-radius: 4px;
+        font-family: 'Poppins' sans-serif;
+        Font-style: bold;
+        Font-size: 16px;
+        Line-height: 26px 100%;
+        color: #ffffff;
+    }
+    
+    .main__effortless-validation {
+        width: 1110px;
+        height: 574px;
+        position: absolute;
+        left: 145px;
+        top: 1397px;
+    }
+    
+    .effortless-validation__text {
+        width: 486px;
+        height: 531px;
+    }
+    
+    p {
+        font-family: 'Poppins' sans-serif;
+        Font-style: Medium;
+        Font-size: 16px;
+        Line-height: 26px 108%;
+        text-align: left;
+        vertical-align: top;
+        color: #544837;
+        font-weight: 500;
+    }
+    
+    h2 {
+        font-family: 'Poppins' sans-serif;
+        Font-style: bold;
+        Font-size: 36px;
+        Line-height: 54px 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #2F281E;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-weight: 700;
+    }
+    
+    h6 {
+        font-family: 'Poppins' sans-serif;
+        Font-style: bold;
+        Font-size: 16px;
+        Line-height: 26px 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #2F281E;
+        margin-top: 35 px;
+        margin-bottom: 25px;
+    }
+    
+    .effortless-validation__img {
+        width: 520px;
+        height: 574px;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    
+    .main__product-managers {
+        width: 1121px;
+        height: 521px;
+        position: absolute;
+        left: 144px;
+        top: 2072px;
+    }
+    
+    .product-managers__img {
+        width: 535px;
+        height: 521px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .product-managers__text {
+        width: 486px;
+        height: 427px;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+    }
+    
+    .product-managers__text>p>span {
+        font-family: 'Poppins' sans-serif;
+        Font-style: Medium;
+        Font-size: 16px;
+        Line-height: 24px 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #544837;
+    }
+    
+    .checkbox-1 {
+        position: absolute;
+        bottom: 170px;
+    }
+    
+    .checkbox-text-1 {
+        position: absolute;
+        bottom: 170px;
+        left: 45px;
+    }
+    
+    .checkbox-2 {
+        position: absolute;
+        bottom: 100px;
+    }
+    
+    .checkbox-text-2 {
+        position: absolute;
+        bottom: 100px;
+        left: 45px;
+    }
+    
+    .checkbox-3 {
+        position: absolute;
+        bottom: 30px;
+    }
+    
+    .checkbox-text-3 {
+        position: absolute;
+        bottom: 30px;
+        left: 45px;
+    }
+    
+    .main__marketers {
+        width: 1110px;
+        height: 609px;
+        position: absolute;
+        left: 147px;
+        top: 2697px;
+    }
+    
+    .marketers__title {
+        width: 486px;
+        height: 181px;
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+    
+    .marketers__first-content {
+        width: 486px;
+        height: 90px;
+        position: absolute;
+        left: 0px;
+        top: 231px;
+    }
+    
+    .marketers__first-content>h6 {
+        position: absolute;
+        left: 0px;
+        top: -30px;
+    }
+    
+    .marketers__first-content>p {
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+    
+    .marketers__second-content {
+        width: 486px;
+        height: 90px;
+        position: absolute;
+        left: 0px;
+        top: 346px;
+    }
+    
+    .marketers__second-content>h6 {
+        position: absolute;
+        left: 0px;
+        top: -30px;
+    }
+    
+    .marketers__second-content>p {
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+    
+    .marketers__third-content {
+        width: 486px;
+        height: 90px;
+        position: absolute;
+        left: 0px;
+        top: 461px;
+        z-index: 1;
+    }
+    
+    .marketers__third-content>h6 {
+        position: absolute;
+        left: 0px;
+        top: -30px;
+    }
+    
+    .marketers__third-content>p {
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+    
+    .marketers__img {
+        width: 542px;
+        height: 609px;
+        background-color: #FFFFFF;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    
+    .footer {
+        width: 1109px;
+        height: 308px;
+        position: absolute;
+        left: 160px;
+        top: 3452px;
+    }
+    
+    .footer__images {
+        position: relative;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        left: 0px;
+        top: 102px;
+    }
+    
+    .footer-productly {
+        position: absolute;
+        left: 42px;
+        top: 102px;
+    }
+    
+    .footer__first-list {
+        position: relative;
+        width: 72px;
+        height: 140px;
+        list-style-type: none;
+        position: absolute;
+        left: 324px;
+        bottom: 0px;
+    }
+    
+    .footer__first-list>ol>li {
+        font-family: 'Poppins' sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 35px 146%;
+        color: #544837;
+        text-align: left;
+        vertical-align: top;
+    }
+    
+    .footer__second-list {
+        position: relative;
+        width: 132px;
+        height: 140px;
+        list-style-type: none;
+        position: absolute;
+        left: 571px;
+        bottom: 0px;
+    }
+    
+    .footer__second-list>ol>li {
+        font-family: 'Poppins' sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 35px 146%;
+        color: #544837;
+        text-align: left;
+        vertical-align: top;
+    }
+    
+    #about-us {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #blog {
+        position: absolute;
+        top: 40px;
+        left: 0px;
+    }
+    
+    #contact {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+    }
+    
+    #faq {
+        position: absolute;
+        top: 120px;
+        left: 0px;
+    }
+    
+    #disclaimer {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #financing {
+        position: absolute;
+        top: 40px;
+        left: 0px;
+    }
+    
+    #privacy-policy {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+    }
+    
+    #Terms-of-service {
+        position: absolute;
+        top: 120px;
+        left: 0px;
+    }
+    
+    .footer__form {
+        width: 325px;
+        height: 48px;
+    }
+    
+    .footer__input {
+        position: absolute;
+        right: 0px;
+        bottom: 60px;
+    }
+    
+    .footer__btn {
+        width: 131px;
+        height: 39px;
+        position: absolute;
+        right: 202px;
+        bottom: 6px;
+        background-color: #FF9900;
+        border: none;
+        border-radius: 4px;
+        font-family: 'Poppins' sans-serif;
+        Font-style: bold;
+        Font-size: 16px;
+        Line-height: 24px 100%;
+        text-align: center;
+        vertical-align: top;
+        color: #ffffff;
+    }
